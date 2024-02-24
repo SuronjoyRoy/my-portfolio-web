@@ -983,16 +983,59 @@ footer {
     font-size: 25px;
 }
 
+/* skills section css */
 
+.skills-section {
+    background-color: #1d002c;
+    padding: 90px 75px;
+}
 
+.skill-title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 65px
+}
 
+.skill-title h2 {
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+    margin-bottom: 15px;
+}
 
+.skills-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
 
+.single-skills {
+    border-right: 2px solid orange;
+    border-bottom-right-radius: 20px;
+    padding: 30px 8px;
+    border-bottom: 4px solid orange;
+    border-left: 2px solid orange;
+    border-bottom-left-radius: 20px;
+}
 
+.single-skills img {
+    width: 80px;
+    margin: auto;
+    margin-bottom: 15px;
+}
 
+.single-skills h2 {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
 
-
-
+.services-icon {
+    width: 70px;
+    margin: auto;
+}
 
 
 
@@ -1240,5 +1283,9 @@ footer {
     .fillter-buttons button {
         width: 100%;
         padding: 13px;
+    }
+
+    .skills-section {
+        padding: 40px 35px;
     }
 }
